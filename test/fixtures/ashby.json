@@ -1,0 +1,130 @@
+{
+ "jobs": [
+  {
+   "id": "0ec39ed7-a5dc-4551-bb26-b7f4f9fb4a74",
+   "title": "Software Engineer, Growth ",
+   "department": "Engineering",
+   "team": "Teams",
+   "employmentType": "FullTime",
+   "location": "San Francisco",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [
+    {
+     "location": "New York",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "NY",
+       "addressCountry": "United States",
+       "addressLocality": "New York"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2025-10-30T16:47:27.463+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "CA",
+     "addressCountry": "United States",
+     "addressLocality": "San Francisco"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/cursor/0ec39ed7-a5dc-4551-bb26-b7f4f9fb4a74",
+   "applyUrl": "https://jobs.ashbyhq.com/cursor/0ec39ed7-a5dc-4551-bb26-b7f4f9fb4a74/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.</p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">As a Product Engineer on the Growth team at SpaceXAI, you'll design and implement systems and features rel",
+   "descriptionPlain": "Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n\nABOUT THE ROLE\n\nAs a Product Engineer on the Growth team at SpaceXAI, you'll design and implement systems and features related to Onboarding, Monetization, and the core product experience.\n\n\n\n\nYOU MAY BE",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "6d576a09-f30d-4e5e-bb58-5d7ef56cb511",
+   "title": "Software Engineer, Infrastructure",
+   "department": "Engineering",
+   "team": "Foundations",
+   "employmentType": "FullTime",
+   "location": "San Francisco",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [
+    {
+     "location": "New York",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "NY",
+       "addressCountry": "United States",
+       "addressLocality": "New York"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-04-07T04:11:06.868+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "CA",
+     "addressCountry": "United States",
+     "addressLocality": "San Francisco"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/cursor/6d576a09-f30d-4e5e-bb58-5d7ef56cb511",
+   "applyUrl": "https://jobs.ashbyhq.com/cursor/6d576a09-f30d-4e5e-bb58-5d7ef56cb511/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.</p><h2>About the Role</h2><p style=\"min-height:1.5em\">As a Software Engineer on the Infrastructure team at SpaceXAI, you'll own the foundational cloud and networking layer that ",
+   "descriptionPlain": "Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n\nABOUT THE ROLE\n\nAs a Software Engineer on the Infrastructure team at SpaceXAI, you'll own the foundational cloud and networking layer that every service runs on: network foundations, container orchestrat",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "77bf35db-119c-4533-8187-1e8d5ae08c45",
+   "title": "Software Engineer, Core Services",
+   "department": "Engineering",
+   "team": "Foundations",
+   "employmentType": "FullTime",
+   "location": "San Francisco",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [
+    {
+     "location": "New York",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "NY",
+       "addressCountry": "United States",
+       "addressLocality": "New York"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-04-07T04:12:23.298+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "CA",
+     "addressCountry": "United States",
+     "addressLocality": "San Francisco"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/cursor/77bf35db-119c-4533-8187-1e8d5ae08c45",
+   "applyUrl": "https://jobs.ashbyhq.com/cursor/77bf35db-119c-4533-8187-1e8d5ae08c45/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.</p><h2>About the Role</h2><p style=\"min-height:1.5em\">As a Software Engineer on the Core Services team at SpaceXAI, you'll own the critical shared services that sit between our ",
+   "descriptionPlain": "Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n\nABOUT THE ROLE\n\nAs a Software Engineer on the Core Services team at SpaceXAI, you'll own the critical shared services that sit between our product surfaces and the infrastructure layer: auth, webhooks, a",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  }
+ ]
+}

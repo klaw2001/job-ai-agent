@@ -1,0 +1,163 @@
+# What to look for and where. Edit freely -- nothing here is personal data.
+
+# Company career boards to watch. These use the public job-board APIs of the three ATS
+# platforms. A "token" is the slug in the board URL:
+#   greenhouse: boards.greenhouse.io/<token>  or job-boards.greenhouse.io/<token>
+#   lever:      jobs.lever.co/<token>
+#   ashby:      jobs.ashbyhq.com/<token>
+# Starter list: boards that were reachable and had India-based or remote openings when this
+# file was written. Add the companies you actually want to work for.
+boards:
+  greenhouse:
+    - databricks
+    - mongodb
+    - stripe
+    - gitlab
+    - elastic
+    - druva
+    - coinbase
+    - twilio
+    - datadog
+    - groww
+    - airbnb
+    - anthropic
+    - vercel
+    - figma
+    - grafanalabs
+    - cloudflare
+  lever:
+    - paytm
+    - meesho
+    - zeta
+    - jumpcloud
+    - mindtickle
+    - cred
+  ashby:
+    - openai
+    - cursor
+    - harvey
+    - elevenlabs
+    - notion
+    - posthog
+    - supabase
+    - replit
+    - linear
+    - sentry
+
+# Cheap title filter, applied before spending any LLM tokens.
+titles:
+  include:
+    - full stack
+    - full-stack
+    - fullstack
+    - software engineer
+    - software developer
+    - backend
+    - back-end
+    - back end
+    - frontend
+    - front-end
+    - front end
+    - web developer
+    - ai engineer
+    - applied ai
+    - llm
+    - genai
+    - generative ai
+    - product engineer
+    - node
+    - javascript
+    - typescript
+  exclude:
+    - staff
+    - principal
+    - director
+    - vp
+    - vice president
+    - head of
+    - intern
+    - internship
+    - manager
+    - architect
+    - sales
+    - recruiter
+    - designer
+    - marketing
+    - support engineer
+    - solutions engineer
+    - sales engineer
+    - security
+    - devops
+    - sre
+    - site reliability
+    - data scientist
+    - research scientist
+    - research engineer
+    - machine learning
+    - ml engineer
+    - ios
+    - android
+    - embedded
+    - firmware
+    - qa
+    - test engineer
+
+# Where you can work. A posting passes if its location text contains a home term or a
+# worldwide term, or if it is remote and NOT locked to a region you can't work from.
+locations:
+  home_terms:
+    - india
+    - mumbai
+    - navi mumbai
+    - thane
+    - pune
+    - bengaluru
+    - bangalore
+    - hyderabad
+    - delhi
+    - new delhi
+    - gurgaon
+    - gurugram
+    - noida
+    - chennai
+    - ahmedabad
+    - kolkata
+  worldwide_terms:
+    - anywhere
+    - worldwide
+    - global
+    - apac
+    - asia
+  region_lock_terms:
+    - us
+    - usa
+    - u.s.
+    - united states
+    - canada
+    - uk
+    - united kingdom
+    - europe
+    - emea
+    - latam
+    - germany
+    - france
+    - spain
+    - netherlands
+    - ireland
+    - poland
+    - portugal
+    - australia
+    - brazil
+    - mexico
+    - japan
+    - singapore
+    - israel
+
+scoring:
+  min_score: 70 # 0-100; jobs below this are never applied to
+  max_jobs_per_run: 60 # cap on LLM scoring calls per run (cost control)
+
+apply:
+  max_per_day: 10 # hard daily cap across all runs
+  max_per_run: 5
+  delay_seconds: [20, 60] # random pause between applications

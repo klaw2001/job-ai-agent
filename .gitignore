@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+
+# Personal data -- this repo may be public, never commit these.
+profile/profile.yaml
+profile/resume.pdf
+profile/*.pdf
+!profile/.gitkeep
+
+# Runtime state, screenshots and generated cover letters
+data/

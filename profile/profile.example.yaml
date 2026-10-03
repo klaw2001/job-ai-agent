@@ -1,0 +1,51 @@
+# Copy to profile/profile.yaml (gitignored) -- or run `npm run agent -- init` to generate it
+# from your resume PDF. Everything here is only ever used to fill application forms and to
+# write cover letters. The agent never invents facts that are not in this file.
+
+name: { first: Jane, last: Doe }
+email: jane@example.com
+phone: "+91 90000 00000"
+location: { city: Mumbai, region: Maharashtra, country: India }
+links:
+  website: https://example.com
+  # linkedin: https://www.linkedin.com/in/...
+  # github: https://github.com/...
+
+headline: Full Stack Developer
+summary: >
+  Two or three sentences about you. Used as grounding for cover letters.
+years_experience: 3
+
+skills:
+  Frontend: [React.js, Vue.js]
+  Backend: [Node.js, Express.js]
+  Databases: [PostgreSQL, MongoDB]
+
+experience:
+  - company: Example Co
+    title: Full Stack Developer
+    start: "2023-06"
+    end: Present
+    bullets:
+      - Concrete, true statements about what you built. The agent may only cite what is written here.
+
+education:
+  - { school: Example University, degree: B.Sc. Information Technology, start: "2019", end: "2022" }
+
+# Facts the agent may state on application forms. Leave null if you don't want it answered
+# automatically: required questions it can't answer from this file pause the application and
+# are listed in `status` for you to handle by hand. Nothing here is ever guessed.
+answers:
+  notice_period: null # e.g. "30 days"
+  expected_salary: null # e.g. "25 LPA"
+  current_salary: null
+  willing_to_relocate: null # true / false
+  requires_sponsorship: null # true / false (visa sponsorship needed?)
+
+# Your own answers for recurring questions. The first `match` (case-insensitive regex tested
+# against the question label) that hits is used verbatim. Examples:
+custom_answers: []
+  # - match: "authori[sz]ed to work in india"
+  #   answer: "Yes"
+  # - match: "legally authori[sz]ed to work in the (us|united states)"
+  #   answer: "No"
